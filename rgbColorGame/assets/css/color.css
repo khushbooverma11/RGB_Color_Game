@@ -1,0 +1,78 @@
+body{
+	background:black;
+	margin-top: 0px;
+	font-family: "Algerian Regular";	
+
+}
+#message{
+	color: white;
+}
+#one{
+	background:black;
+	color:white;
+	text-align: center;
+	/*margin-top: 0px;
+	margin-bottom: 0px;*/
+	margin:0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+#col{
+	font-size: 200%;
+}
+.square{
+	background: purple;
+	width: 30%;
+	margin:1.66%;
+	padding-bottom: 30%;
+	float: left;
+	 border-radius: 15%;
+	 transition: background 0.6s;
+	 -webkit-transition: background 0.6s;
+	 -moz-transition: background 0.6s;
+
+	}
+#container{
+	margin:20px auto;
+	max-width: 600px;
+
+}
+#mes{
+	background:white;
+	text-align: center;
+	height: 30px;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+	color: blue; 
+	height:100%;
+	padding:0;
+}
+.selected{
+	background:blue;
+	color: white;
+}
+
+button{
+	border:none;
+	background:none;
+	text-transform: uppercase;
+	height: 100%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: inherit;
+	color:blue;
+	font-family: inherit;
+	transition: all 0.5s;
+	-webkit-transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	margin-bottom: 1px;
+}
+
+button:hover{
+	color:white;
+	background:blue;
+}
+
